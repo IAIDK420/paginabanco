@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Guayaquil - Abre tu Cuenta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .encabezado, .pie {
+            background-color: #F1025E;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .encabezado {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px 20px;
+        }
+        .encabezado img {
+            max-height: 40px;
+        }
+        .navegacion {
+            flex: 1;
+            text-align: center;
+        }
+        .navegacion a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .link-derecha {
+            margin-left: auto;
+            color: white;
+            text-decoration: none;
+        }
+        .banner-principal {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #221150;
+            color: white;
+            padding: 130px 20px;
+        }
+            .banner-texto button {
+            display: flex;
+            width: 100%;
+            max-width: 250px;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 1em;
+            color: white;
+            background-color: #F1025E;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .banner-imagen {
+            flex: 1;
+            text-align: right;
+        }
+        .banner-imagen img {
+            flex: 1;
+            width: 100%;
+            max-width: 650px; 
+            max-height: 400px;
+            height: 100%; 
+            border-radius: 1px;
+        }
+        .contenido-principal {
+            padding: 20px;
+        }
+        .cajas-informativas, .seccion-testimonios, .seccion-blog {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+        .caja-informativa, .testimonio, .articulo-blog, .promo-app {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 300px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .caja-informativa img, .testimonio img, .articulo-blog img, .promo-app img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            margin: 0 auto;
+        }
+        .seccion-testimonios, .promo-app {
+            justify-content: space-around;
+        }
+        .seccion-blog {
+            overflow-x: auto;
+            display: flex;
+            gap: 10px;
+        }
+        .enlaces-pie {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+        }
+        .enlaces-pie div {
+            margin-bottom: 15px;
+        }
+        .enlaces-pie a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="encabezado">
+        <img src="logo.png">
+        <div class="navegacion">
+            <a href="#">Cuentas e Inversiones</a>
+            <a href="#">Préstamos</a>
+            <a href="#">Tarjetas de Crédito</a>
+            <a href="#">Más Servicios</a>
+            <a href="#">Empresas</a>
+            <a href="#">Centro de Ayuda</a>
+        </div>
+        <a href="#" class="link-derecha">Ingresar a Banca Virtual ᐯ</a>
+    </div>
+
+    <div class="banner-principal">
+        <div class="banner-texto">
+            <h2> <span style="color: #f37dd0;">Abre tu cuenta en minutos</span>, sin ir <br>al banco y sin depósito inicial</h2>
+            <button>Contrata una Cuenta</button>
+            <button>Ingresa a Banca Persona</button>
+        </div>
+        <div class="banner-imagen">
+            <img src="tarjeta.webp">
+        </div>
+    </div>
+
+    <div class="contenido-principal">
+        <div class="cajas-informativas">
+            <div class="caja-informativa">
+                <img src="personatlf.webp">
+                <h3>Abre tu Cuenta de Ahorros más rápido desde tu App</h3>
+                <p>Contrata tu cuenta en menos de 5 minutos...</p>
+                <button>Ver Más Beneficios</button>
+            </div>
+            <div class="caja-informativa">
+                <img src="telf.webp">
+                <h3>Guarda tu dinero de la forma más segura</h3>
+                <p>Conoce todas las medidas de seguridad...</p>
+            </div>
+            <div class="caja-informativa">
+                <img src="dospersonas.webp">
+                <h3>No confíes solo en nuestra palabra</h3>
+                <p>Más de 1,000 clientes nos recomiendan...</p>
+            </div>
+        </div>
+
+        <h2><center>Artículos del Blog</center></h2>
+        <div class="seccion-blog">
+            <div class="articulo-blog">
+                <img src="imgblog1.webp">
+                <h3>Cuenta de Ahorros vs. Cuenta Corriente: Diferencias</h3>
+                <p>La mayoría de nosotros nos iniciamos en el mundo financiero...</p>
+            </div>
+            <div class="articulo-blog">
+                <img src="imgblog2.webp">
+                <h3>Tips para Ahorrar Dinero: ¿Qué es el Ahorro Escandaloso?</h3>
+                <p>Estos son los pasos que necesitas conocer...</p>
+            </div>
+            <div class="articulo-blog">
+                <img src="imgblog3.webp">
+                <h3>¿Por Qué Ahorrar en un Banco es Seguro?</h3>
+                <p>Cuando se trata de guardar nuestro dinero...</p>
+            </div>
+        </div>
+        <h2><center>Personas reales, opiniones reales</center></h2>
+        <div class="seccion-testimonios">
+            <div class="testimonio">
+                <p>"Me gusta el Banco Guayaquil por su calidad de atención y seguridad..."</p>
+                <p>- Carlos Bájaña</p>
+            </div>
+            <div class="testimonio">
+                <p>"La app es fácil de usar y me ayuda a gestionar mis finanzas..."</p>
+                <p>- Abby Bravo</p>
+            </div>
+            <div class="testimonio">
+                <p>"El banco siempre ha sido confiable, especialmente en transferencias..."</p>
+                <p>- Marcos Pérez</p>
+            </div>
+        
+        </div>
+
+        <div class="promo-app">
+            <img src="appcel.webp">
+            <h2>Descarga la App y regístrate en pocos minutos sin moverte de casa</h2>
+            <button>Conoce más sobre la App</button>
+        </div>
+    </div>
+
+    <div class="pie">
+        <div class="enlaces-pie">
+            <div>
+                <a href="#">Puntos de Atención</a>
+                <a href="#">Cajeros y Agencias</a>
+                <a href="#">ChatBot y Centro de Ayuda</a>
+                <a href="#">Agencias</a>
+            </div>
+            <div>
+                <a href="#">Productos y Servicios</a>
+                <a href="#">Cuentas de Ahorros</a>
+                <a href="#">Multicuentas</a>
+                <a href="#">American Express</a>
+            </div>
+            <div>
+                <a href="#">Acerca de Banco Guayaquil</a>
+                <a href="#">Convenios</a>
+                <a href="#">Transferencias</a>
+                <a href="#">Red de Cajeros Automáticos</a>
+            </div>
+        </div>
+        <p>Personaliza tu cuenta con la App Banco Guayaquil</p>
+    </div>
+
+</body>
+</html>
